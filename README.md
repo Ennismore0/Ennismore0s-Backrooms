@@ -1,4 +1,5 @@
-![Ennismore0's Backrooms](https://cdn.modrinth.com/data/cached_images/fe4fb926684e06536517e99250b6999ba487f7bf.png)
+<img width="2062" height="160" alt="Ennismore0's Backrooms" src="https://github.com/user-attachments/assets/d79de381-ad83-4d06-90c6-1d8b1c8b8772" />
+
 
 **Ennismore0's Backrooms** is a new mod focused on adding all blocks from the popular fiction-turned-movie The Backrooms! With simple names, hand-made textures, and proper properties, this is your go-to for any videos or games!
 
