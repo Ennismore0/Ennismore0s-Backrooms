@@ -7,4 +7,3 @@
 [![GitHub](https://cdn.modrinth.com/data/cached_images/42bad645daf4235b5c050ed51afb7c44671f02b2.png)](https://github.com/Ennismore0/Ennismore0s-Backrooms)
 [![CurseForge](https://cdn.modrinth.com/data/cached_images/4052357f1341e8b25f2a82a60db825f82ab4e64a.png)](https://www.curseforge.com/minecraft/mc-mods/ennismore0s-backrooms)
 [![Modrinth](https://cdn.modrinth.com/data/cached_images/5f5195044e56e02ee683df6265f364c473d6b2b0.png)](https://modrinth.com/mod/ennismore0s-backrooms)
-<img width="128" height="64" alt="Links Sign" src="https://github.com/user-attachments/assets/8d7c3bfe-0d0b-4294-a307-cead2f40b36a" />
