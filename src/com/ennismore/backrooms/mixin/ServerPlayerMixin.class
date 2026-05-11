@@ -1,0 +1,28 @@
+Êþº¾   A ƒ /com/ennismore/backrooms/mixin/ServerPlayerMixin  java/lang/Object  ServerPlayerMixin.java #Lorg/spongepowered/asm/mixin/Mixin; value Lnet/minecraft/class_3222; %java/lang/invoke/MethodHandles$Lookup 	 java/lang/invoke/MethodHandles  Lookup <init> ()V  
+   this 1Lcom/ennismore/backrooms/mixin/ServerPlayerMixin; drop K(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V `(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable<Ljava/lang/Boolean;>;)V 	dropStack cir .Lorg/spongepowered/asm/mixin/injection/Inject; method 1Lnet/minecraft/server/level/ServerPlayer;drop(Z)Z at *Lorg/spongepowered/asm/mixin/injection/At; HEAD cancellable    net/minecraft/class_3222 ! method_31548 ()Lnet/minecraft/class_1661; # $
+ " % net/minecraft/class_1661 ' method_37417 (Z)Lnet/minecraft/class_1799; ) *
+ ( + 
+field_7512 Lnet/minecraft/class_1703; - .	 " / method_67532 ()I 1 2
+ ( 3 net/minecraft/class_1703 5 method_37418 4(Lnet/minecraft/class_1263;I)Ljava/util/OptionalInt; 7 8
+ 6 9 (I)V ; 
+lambda$drop$0 8(Lnet/minecraft/class_3222;Lnet/minecraft/class_1661;I)V = >
+  ? @ "java/lang/invoke/LambdaMetafactory B metafactory Ì(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; D E
+ C F G accept V(Lnet/minecraft/class_3222;Lnet/minecraft/class_1661;)Ljava/util/function/IntConsumer; I J   K java/util/OptionalInt M 	ifPresent #(Ljava/util/function/IntConsumer;)V O P
+ N Q method_7329 8(Lnet/minecraft/class_1799;ZZ)Lnet/minecraft/class_1542; S T
+ " U Eorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable W net/minecraft/class_1799 Y java/lang/Boolean [ valueOf (Z)Ljava/lang/Boolean; ] ^
+ \ _ setReturnValue (Ljava/lang/Object;)V a b
+ X c Z \Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable<Ljava/lang/Boolean;>; GLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable; self 	inventory Lnet/minecraft/class_1661; 	itemstack Lnet/minecraft/class_1799; 	p_401732_ method_7391 ()Lnet/minecraft/class_1799; n o
+ ( p method_34245 (ILnet/minecraft/class_1799;)V r s
+ 6 t I Code LineNumberTable LocalVariableTable 
+StackMapTable LocalVariableTypeTable 	Signature RuntimeVisibleAnnotations MethodParameters InnerClasses 
+SourceFile RuntimeInvisibleAnnotations BootstrapMethods!            w   /     *· ±    x       
+ y                w       D*À "N-¶ &:¶ ,:-´ 0¶ 4¶ :-º L  ¶ R,-¶ VÆ § ¸ `¶ d±    z   7 ÿ <   X " ( Z  Xÿ     X " ( Z  X x              ,  C  y   >    D       D  e    D  g   ? h    9 i j   1 k l  {       D  f  |     }   "    [ s  [ @   s  Z   ~   	      
+ = >  w   K     
+*´ 0+¶ q¶ u±    x        y        
+ h      
+ i j    
+ m v  ~   
+ h   i   m       
+  
+  
+  €            [ c  ‚     H  < A <
