@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "ennismore0s_backrooms",
+  "version": "0.0.1-preview-level1",
+  "name": "Ennismore0's Backrooms",
+  "description": "Adds blocks and items from the Backrooms.",
+  "authors": [
+    "Ennismore0"
+  ],
+  "contact": {
+    "homepage": "https://discord.com/invite/TeUhG8Ty3a",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ennismore.backrooms.Ennismore0sBackroomsMod"
+    ],
+    "client": [
+      "com.ennismore.backrooms.Ennismore0sBackroomsModClient"
+    ]
+  },
+  "accessWidener": "META-INF/ennismore0s_backrooms.classtweaker",
+  "mixins": [
+    "ennismore0s_backrooms.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
