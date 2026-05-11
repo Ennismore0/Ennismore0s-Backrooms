@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "com.ennismore.backrooms.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "ennismore0s_backrooms.refmap.json",
+  "mixins": [
+    "RepairItemRecipeMixin",
+    "ServerPlayerMixin",
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ItemStackMixin",
+    "BlockItemMixin",
+    "BoneMealItemMixin",
+    "CommandsMixin",
+    "ExperienceOrbMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}
