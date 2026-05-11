@@ -1,0 +1,82 @@
+{
+  "mappings": {
+    "com/ennismore/backrooms/mixin/BlockItemMixin": {
+      "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/class_1747;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "com/ennismore/backrooms/mixin/BoneMealItemMixin": {
+      "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/class_1752;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "com/ennismore/backrooms/mixin/CommandsMixin": {
+      "performCommand(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V": "Lnet/minecraft/class_2170;method_9249(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V"
+    },
+    "com/ennismore/backrooms/mixin/ExperienceOrbMixin": {
+      "playerTouch(Lnet/minecraft/world/entity/player/Player;)V": "Lnet/minecraft/class_1303;method_5694(Lnet/minecraft/class_1657;)V"
+    },
+    "com/ennismore/backrooms/mixin/ItemStackMixin": {
+      "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/class_1799;method_7981(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "com/ennismore/backrooms/mixin/LivingEntityMixin": {
+      "applyItemBlocking(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)F": "Lnet/minecraft/class_1309;method_67346(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)F",
+      "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/class_1309;method_5747(DFLnet/minecraft/class_1282;)Z",
+      "dropExperience(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_1309;method_23883(Lnet/minecraft/class_3218;Lnet/minecraft/class_1297;)V",
+      "heal(F)V": "Lnet/minecraft/class_1309;method_6025(F)V",
+      "jumpFromGround()V": "Lnet/minecraft/class_1309;method_6043()V",
+      "onItemPickup(Lnet/minecraft/world/entity/item/ItemEntity;)V": "Lnet/minecraft/class_1309;method_29499(Lnet/minecraft/class_1542;)V",
+      "releaseUsingItem()V": "Lnet/minecraft/class_1309;method_6075()V",
+      "startUsingItem(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/class_1309;method_6019(Lnet/minecraft/class_1268;)V",
+      "swing(Lnet/minecraft/world/InteractionHand;Z)V": "Lnet/minecraft/class_1309;method_23667(Lnet/minecraft/class_1268;Z)V"
+    },
+    "com/ennismore/backrooms/mixin/PlayerMixin": {
+      "giveExperienceLevels(I)V": "Lnet/minecraft/class_1657;method_7316(I)V",
+      "giveExperiencePoints(I)V": "Lnet/minecraft/class_1657;method_7255(I)V",
+      "tick()V": "Lnet/minecraft/class_1657;method_5773()V"
+    },
+    "com/ennismore/backrooms/mixin/RepairItemRecipeMixin": {
+      "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_9694;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_1799;"
+    },
+    "com/ennismore/backrooms/mixin/ServerPlayerMixin": {
+      "Lnet/minecraft/server/level/ServerPlayer;drop(Z)Z": "Lnet/minecraft/class_3222;method_37413(Z)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/ennismore/backrooms/mixin/BlockItemMixin": {
+        "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/class_1747;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "com/ennismore/backrooms/mixin/BoneMealItemMixin": {
+        "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/class_1752;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "com/ennismore/backrooms/mixin/CommandsMixin": {
+        "performCommand(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V": "Lnet/minecraft/class_2170;method_9249(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V"
+      },
+      "com/ennismore/backrooms/mixin/ExperienceOrbMixin": {
+        "playerTouch(Lnet/minecraft/world/entity/player/Player;)V": "Lnet/minecraft/class_1303;method_5694(Lnet/minecraft/class_1657;)V"
+      },
+      "com/ennismore/backrooms/mixin/ItemStackMixin": {
+        "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/class_1799;method_7981(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "com/ennismore/backrooms/mixin/LivingEntityMixin": {
+        "applyItemBlocking(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)F": "Lnet/minecraft/class_1309;method_67346(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)F",
+        "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/class_1309;method_5747(DFLnet/minecraft/class_1282;)Z",
+        "dropExperience(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_1309;method_23883(Lnet/minecraft/class_3218;Lnet/minecraft/class_1297;)V",
+        "heal(F)V": "Lnet/minecraft/class_1309;method_6025(F)V",
+        "jumpFromGround()V": "Lnet/minecraft/class_1309;method_6043()V",
+        "onItemPickup(Lnet/minecraft/world/entity/item/ItemEntity;)V": "Lnet/minecraft/class_1309;method_29499(Lnet/minecraft/class_1542;)V",
+        "releaseUsingItem()V": "Lnet/minecraft/class_1309;method_6075()V",
+        "startUsingItem(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/class_1309;method_6019(Lnet/minecraft/class_1268;)V",
+        "swing(Lnet/minecraft/world/InteractionHand;Z)V": "Lnet/minecraft/class_1309;method_23667(Lnet/minecraft/class_1268;Z)V"
+      },
+      "com/ennismore/backrooms/mixin/PlayerMixin": {
+        "giveExperienceLevels(I)V": "Lnet/minecraft/class_1657;method_7316(I)V",
+        "giveExperiencePoints(I)V": "Lnet/minecraft/class_1657;method_7255(I)V",
+        "tick()V": "Lnet/minecraft/class_1657;method_5773()V"
+      },
+      "com/ennismore/backrooms/mixin/RepairItemRecipeMixin": {
+        "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_9694;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_1799;"
+      },
+      "com/ennismore/backrooms/mixin/ServerPlayerMixin": {
+        "Lnet/minecraft/server/level/ServerPlayer;drop(Z)Z": "Lnet/minecraft/class_3222;method_37413(Z)Z"
+      }
+    }
+  }
+}
